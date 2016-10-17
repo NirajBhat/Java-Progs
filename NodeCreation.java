@@ -1,15 +1,15 @@
 package com.bridgelabz.programs;
 import java.util.*;
 
-public class NodeCreation<T>{
-	T data;
+public class NodeCreation{
+	int data;
 	NodeCreation next;
 	//Assigning the data value
-	public void setData(T value){
+	public void setData(int value){
 		data = value;
 	}
 	//getting data value
-	public T getData(){
+	public int getData(){
 		return data;
 	}
 	//Assigning next node
