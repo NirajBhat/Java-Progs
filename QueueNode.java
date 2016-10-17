@@ -21,4 +21,5 @@ public class QueueNode{
    public QueueNode getNode(){
 		return link;
 	}
+
 }
